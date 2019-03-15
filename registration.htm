@@ -1,0 +1,68 @@
+<doctype! html5>
+<head>
+	<title>Registration</title>
+</head>
+<nav>
+<a href="index.htm">HOMEPAGE</a>
+<a href="films.htm ">FILMS</a>
+<a href="books.htm">BOOKS</a>
+<a href="musics.htm">MUSICS</a>
+<a href="usefullinks.htm">USEFUL LINKS</a>
+<a href="contactme.htm">CONTACT ME</a>
+<a href="registration.htm"><b>REGISTER</b></a>
+</nav>
+<body>
+<form method="post">
+	Name and Surname:
+	<input type="text" name="namesurname">
+	<br>
+	<label for="txtPassword">Password:</label>
+ 	<input name="txtPassword" type="password" >
+ 	<br>
+	Date of Birth:
+	<input type="date" name="date">
+	<br>
+	Gender:
+	<select>
+		<option value="Man">Man</option>
+		<option value="Woman">Woman</option>
+	</select>
+	<br>
+	Telephone:
+	<input type="text" name="telephone" placeholder="Max Length is 11" maxlength="11">
+	<br>
+	Issue:
+	<input type="text" name="issue">
+	<br>
+	About Me:
+	<textarea rows="8" cols="40" name="message">
+	</textarea>
+	<br>
+	<input type="file" name="pic" accept="image/*">
+	<br>
+	<input type="radio" name="interest" value="Sport">Sport	
+	<input type="radio" name="interest" value="Music">Music
+	<input type="radio" name="interest" value="Games">Games
+	<input type="radio" name="interest" value="Bugs">Bugs
+	<input type="radio" name="interest" value="Languages">Languages
+	<br>
+	<input type="radio" name="interest" value="Travel">Travel
+	<input type="radio" name="interest" value="Nature">Nature
+	<input type="radio" name="interest" value="Cars">Cars
+	<input type="radio" name="interest" value="Food">Food
+	<input type="radio" name="interest" value="Programming">Programming
+	<br>
+	<input type="submit" name="submit" value="Send" onclick="Thanks registration" >
+	<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  This is an alert box.
+</div>
+
+	<br>
+	<input type="reset" name="reset">
+
+
+	
+</form>
+
+</body>
